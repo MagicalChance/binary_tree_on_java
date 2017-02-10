@@ -48,7 +48,7 @@ public class BinaryTree {
                 insertNode(currentNode.getLeft(), newNode);
             }
         }
-        if (newNode.getData() >= currentNode.getData()) {
+        if (newNode.getData() > currentNode.getData()) {
             if (currentNode.getRight() == null) {
                 currentNode.setRight(newNode);
             } else {
