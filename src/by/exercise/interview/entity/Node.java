@@ -3,6 +3,7 @@ package by.exercise.interview.entity;
 /**
  * Created by aleh on 9.2.17.
  */
+
 public class Node {
 
     private Long data;
@@ -37,7 +38,7 @@ public class Node {
     /**
      * @return Right node for this Node
      */
-    protected Node getRight() { return leftNode; }
+    protected Node getRight() { return rightNode; }
 
     /**
      * Set left node pointer for this Node
