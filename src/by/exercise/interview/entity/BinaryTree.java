@@ -3,6 +3,7 @@ package by.exercise.interview.entity;
 /**
  * Created by aleh on 9.2.17.
  */
+
 public class BinaryTree {
 
     private Node rootNode;
